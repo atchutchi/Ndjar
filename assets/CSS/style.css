@@ -1,6 +1,13 @@
 /* Default Styles */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quattrocento&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border: none;
+}
 
 body {
-    font-family: arial, sans-serif;
-    line-height: 1.6;
+    font-family: oswald, sans-serif;
+    font-weight: 400;
 }
