@@ -8,6 +8,44 @@
 }
 
 body {
-    font-family: oswald, sans-serif;
+    font-family: 'Quattrocento', serif;
     font-weight: 400;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #fff
+    letter-spacing: 4px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: relative;
+    border: 1px solid #ccc; 
+}
+
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.logo {
+    position: absolute;
+    float: left;
+    width: 75px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+  
+.menu li {
+  margin-left: 1rem;
 }
