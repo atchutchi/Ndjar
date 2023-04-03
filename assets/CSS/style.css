@@ -10,7 +10,7 @@
 body {
     font-family: 'Oxygen', sans-serif;
     font-weight: 400;
-    color: red;
+    color: #ccc;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -20,10 +20,6 @@ h1, h2, h3, h4, h5, h6{
     letter-spacing: 4px;
 }
 
-/* header */
-header{
-
-}
 
 .logo {
     float: left;
@@ -60,18 +56,20 @@ header{
     border-bottom: 1px solid #fff;
 }
 
-/* main image */
+/* main image and cover text */
 
 .main-outer{
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
 }
 
 .main-image{
     height: 600px;
     width: 100%;
-    background: url('../images/main-image.jpg') no-repeat center center/cover;
+    background: url('../images/agriculture-image.png') no-repeat center center/cover;
     
     /*animates zoom effect on loading page */
     animation: zoomIn 10s linear forwards;
@@ -88,4 +86,32 @@ header{
     100% {
       background-size: 120% 120%;
     }
+}
+
+.title-slogan, .title-slogan h1, h3{
+    color: #fff;
+}
+
+.title-slogan {
+    position: absolute;
+    font-size: 130%;
+    font-family: 'Rufina', serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 400px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    bottom: 30px;
+    right: 150px;
+    
+  }
+  
+.title-slogan button{
+    background-color: orange;
 }
