@@ -1,5 +1,5 @@
 /* Default Styles */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Quattrocento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Rufina:wght@700&display=swap');
 
 *{
     margin:0;
@@ -8,19 +8,22 @@
 }
 
 body {
-    font-family: 'Quattrocento', serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 400;
-    color: #fff;
+    color: red;
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Rufina', serif;
     font-weight: bold;
     color: #fff;
     letter-spacing: 4px;
 }
 
 /* Header */
+header{
+
+}
 
 .logo {
     float: left;
@@ -31,13 +34,17 @@ h1, h2, h3, h4, h5, h6{
 
 .menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+.menu, .logo{
+    line-height: 75px;
 }
 
 .menu li {
     float: right;
     list-style-type: none;
-    margin-right: 1rem;
+    margin-right: 30px;
   }
 
   .menu a{
@@ -45,6 +52,11 @@ h1, h2, h3, h4, h5, h6{
     color: inherit;
   }
 
-  .menu, .logo{
-    line-height: 75px;
+  .menu a:hover{
+    border-bottom: 1px solid #fff;
   }
+  
+  .active{
+    border-bottom: 1px solid #fff;
+  }
+
