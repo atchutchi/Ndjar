@@ -172,3 +172,41 @@ h1, h2, h3, h4, h5, h6{
     margin: 20px;
     font-size: 280%;
 }
+
+/*Service*/
+
+.c-services{
+    padding: 2rem;
+    background-image: url(../images/services-section.jpg); /* add the image*/
+    background-size: cover; /*to cover all area*/
+    background-position: center; /* to centralize the background image*/
+    text-align: center;
+    color:#fff;
+    border: 10px solid #ccc;
+  }
+  .c-services-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 100px;
+  }
+  .c-service{
+    width: 23%;
+    padding: 1rem;
+    background-color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  .icon-service {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  
+  }
+  .c-service h2{
+    margin-bottom: 1rem;
+  }
+  .c-service p{
+    font-size: 14px;
+  }
