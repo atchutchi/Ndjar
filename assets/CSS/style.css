@@ -166,3 +166,9 @@ h1, h2, h3, h4, h5, h6{
     height: auto;
     border-radius: 10px; /* Add a border radius to make the image more appealing */
 }
+
+#about{
+    text-align: center;
+    margin: 20px;
+    font-size: 280%;
+}
