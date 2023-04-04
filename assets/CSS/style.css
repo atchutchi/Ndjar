@@ -9,8 +9,8 @@
 
 body {
     font-family: 'Oxygen', sans-serif;
-    font-weight: 400;
-    color: rebeccapurple;
+    font-weight: 400px;
+    color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -117,31 +117,52 @@ h1, h2, h3, h4, h5, h6{
     background-color: orange;
 }
 
+
 /* About */
-
 .about {
-    height: 600px;
     background-color: #333;
-  }
-  
-  
-  .about-left {
-    width: 40%;
-    padding-top: 30px;
-    float: left;
+    padding: 2rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
 
-  }
-  
-  
-  .about-right {
-    width: 40%;
-    padding-top: 30px;
-    float: right;
-  }
-  
-  .about-text{
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-  }
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+    max-width: calc(50% - 2rem);
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-text p {
+    margin-top: 1rem;
+}
+
+.about-text ul {
+    margin-top: 1rem;
+}
+
+.about-image {
+    flex: 1;
+    max-width: calc(50% - 2rem);
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Add a border radius to make the image more appealing */
+}
