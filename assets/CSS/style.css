@@ -407,3 +407,23 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+.footer-social a {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: #fff;
+    transition: color 0.3s;
+}
+  
+.footer-social a:hover {
+    color: #ccc;
+}
+  
+.footer-social a:last-child {
+    margin-right: 0;
+}
+  
+.footer-social a i {
+    display: block;
+}
+  
