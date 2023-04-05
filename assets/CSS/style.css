@@ -69,7 +69,10 @@ h1, h2, h3, h4, h5, h6{
 .main-image{
     height: 600px;
     width: 100%;
-    background: url('../images/agriculture-image.png') no-repeat center center/cover;
+    background: url('../images/countryside-workers.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     
     /*animates zoom effect on loading page */
     animation: zoomIn 10s linear forwards;
@@ -400,7 +403,7 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 2rem 0;
-    border: 10px solid;
+    border: 5px solid;
 }
 .footer-social {
     display: flex;
