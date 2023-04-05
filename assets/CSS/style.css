@@ -308,3 +308,18 @@ h1, h2, h3, h4, h5, h6{
     margin: 20px;
     font-size: 280%;
 }
+
+/* contact */
+
+.contacto {
+    padding: 4rem 0;
+    background-image: url('../images/side-view-women-shaking-hands.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    border: 10px solid;
+    width: 100%;
+    overflow: hidden;
+}
