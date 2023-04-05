@@ -20,7 +20,6 @@ h1, h2, h3, h4, h5, h6{
     letter-spacing: 4px;
 }
 
-
 .logo {
     float: left;
     width: 75px;
@@ -126,6 +125,8 @@ h1, h2, h3, h4, h5, h6{
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
+    border: 10px solid;
+    margin: 0 auto;
 }
 
 .about-content {
@@ -167,46 +168,55 @@ h1, h2, h3, h4, h5, h6{
     border-radius: 10px; /* Add a border radius to make the image more appealing */
 }
 
-#about{
+.about h1{
     text-align: center;
     margin: 20px;
     font-size: 280%;
 }
 
-/*Service*/
-
-.c-services{
+/* Services */
+.services {
     padding: 2rem;
-    background-image: url(../images/services-section.jpg); /* add the image*/
-    background-size: cover; /*to cover all area*/
-    background-position: center; /* to centralize the background image*/
+    background-image: url(../images/services-section.jpg);
+    background-size: cover;
+    background-position: center;
     text-align: center;
-    color:#fff;
-    border: 10px solid #ccc;
-  }
-  .c-services-content{
+    color: #fff;
+    border: 10px solid;
+    margin: 0 auto;
+}
+
+.services h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 280%;
+}
+
+.services-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 100px;
-  }
-  .c-service{
+}
+
+.service-item {
     width: 23%;
     padding: 1rem;
     background-color: #333;
-    border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 1rem;
-  }
-  .icon-service {
+}
+
+.icon-service {
     font-size: 3rem;
     color: #ffffff;
     margin-bottom: 1rem;
-  
-  }
-  .c-service h2{
+}
+
+.service-item h2 {
     margin-bottom: 1rem;
-  }
-  .c-service p{
+}
+
+.service-item p {
     font-size: 14px;
-  }
+}
