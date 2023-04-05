@@ -220,3 +220,12 @@ h1, h2, h3, h4, h5, h6{
 .service-item p {
     font-size: 14px;
 }
+
+/* theory of change */
+
+.theory-change{
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #333;
+    border: 10px solid;
+  }
