@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Oxygen', sans-serif;
-    font-weight: 400px;
+    font-weight: 300px;
     color: #fff;
 }
 
@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Rufina', serif;
     font-weight: bold;
     color: #fff;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
 }
 
 .logo {
@@ -299,7 +299,8 @@ h1, h2, h3, h4, h5, h6{
     height: auto;
 }
   .member h2{
-    margin-top: 1rem;
+    margin-top: 1px;
+    text-align: center;
 }
 
 .team-member h1{
