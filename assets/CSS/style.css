@@ -263,6 +263,12 @@ h1, h2, h3, h4, h5, h6{
     object-fit: cover;
 }
 
+.theory-change h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 280%;
+}
+
 /* meet us */ 
 
 .team-member{
@@ -272,4 +278,32 @@ h1, h2, h3, h4, h5, h6{
     background-color: #333;
     border: 10px solid;
 }
-  
+
+.team-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.member{
+    width: 20%;
+    border: 2px solid;
+    padding: 2rem;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.member-img {
+    width: 60%;
+    height: auto;
+}
+  .member h2{
+    margin-top: 1rem;
+}
+
+.team-member h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 280%;
+}
