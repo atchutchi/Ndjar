@@ -62,6 +62,7 @@ h1, h2, h3, h4, h5, h6{
     height: 600px;
     width: 100%;
     overflow: hidden;
+    border: 10px solid;
 
     position: relative;
 }
@@ -207,6 +208,7 @@ h1, h2, h3, h4, h5, h6{
     padding: 1rem;
     background-color: #333;
     border-radius: 5px;
+    border: 2px solid;
     margin-bottom: 1rem;
 }
 
@@ -397,6 +399,8 @@ button[type="submit"] {
     color: #333;
     border-radius: 5px;
 }
+
+
 
 /* Footer */
 footer {
