@@ -70,8 +70,6 @@ h1, h2, h3, h4, h5, h6{
 .main-outer{
     height: 600px;
     width: 100%;
-    overflow: hidden;
-    border: 10px solid;
 
     position: relative;
 }
