@@ -289,6 +289,7 @@ h1, h2, h3, h4, h5, h6{
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 2rem;
+    align-items: stretch;
 }
 
 .member{
@@ -330,6 +331,12 @@ h1, h2, h3, h4, h5, h6{
     overflow: hidden;
 }
 
+.contacto h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 280%;
+}
+
 .contacto-content {
     display: inline-flex;
     flex-direction: column;
@@ -338,7 +345,7 @@ h1, h2, h3, h4, h5, h6{
 
 /* Contact Row and Columns */
 .contacto-row {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     width: 100%;
     max-width: 800px;
@@ -438,3 +445,22 @@ footer {
     text-align: center;
     margin-top: 1rem;
 }
+
+/* media queries */
+
+/* for 1200px large to medium screens size*/
+@media (max-width: 1200px) {
+    .about-content {
+      flex-direction: column;
+    }
+  
+    .about-text,
+    .about-image {
+      max-width: 100%;
+    }
+  
+    .title-slogan {
+      width: 300px;
+      right: 100px;
+    }
+  }
