@@ -469,11 +469,23 @@ footer {
       right: 100px;
     }
 
+    .image-content{
+        width: auto;
+    }
+    .image-box{
+        width: 20%;
+    }
+
 }
 
 /* Medium screens */
 @media (max-width: 950px) {
-    
+    .image-content{
+        width: auto;
+    }
+    .image-box{
+        width: 20%;
+    }
 }
 
 /* Small screens */
