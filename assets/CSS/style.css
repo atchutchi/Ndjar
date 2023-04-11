@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Oxygen', sans-serif;
-    font-weight: 300px;
+    font-weight: 400px;
     color: #fff;
 }
 
@@ -86,7 +86,6 @@ h1, h2, h3, h4, h5, h6{
     animation: zoomIn 10s linear forwards;
 
 }
-
 
 /* create zoom fo main image */
 
@@ -229,6 +228,7 @@ h1, h2, h3, h4, h5, h6{
 
 .service-item p {
     font-size: 14px;
+    text-align: justify;
 }
 
 /* theory of change */
@@ -468,4 +468,15 @@ footer {
       width: 300px;
       right: 100px;
     }
-  }
+
+}
+
+/* Medium screens */
+@media (max-width: 950px) {
+  
+}
+
+/* Small screens */
+@media (max-width: 800px) {
+    
+}
