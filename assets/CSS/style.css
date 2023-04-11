@@ -473,10 +473,18 @@ footer {
 
 /* Medium screens */
 @media (max-width: 950px) {
-  
+    
 }
 
 /* Small screens */
 @media (max-width: 800px) {
-    
+    .services{
+        padding: 100px;
+    }
+    .services-content,
+    .service-item {
+        display: block;
+        width: 200px;
+
+    }
 }
