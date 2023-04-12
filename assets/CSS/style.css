@@ -357,7 +357,16 @@ h1, h2, h3, h4, h5, h6{
     margin: 0 auto;
   }
   
-.contacto-collumn {
+.contacto-info {
+    padding: 1rem;
+    background-color: rgba(51, 51, 51, 0.8);
+    border-radius: 10px;
+    width: 48%;
+    text-align: justify;
+    border: 2px solid white;
+}
+
+.contacto-form {
     padding: 1rem;
     background-color: rgba(51, 51, 51, 0.8);
     border-radius: 10px;
