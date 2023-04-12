@@ -364,6 +364,7 @@ h1, h2, h3, h4, h5, h6{
     width: 48%;
     text-align: justify;
     border: 2px solid white;
+    margin-right: 5%;
 }
 
 .contacto-form {
@@ -373,6 +374,7 @@ h1, h2, h3, h4, h5, h6{
     width: 48%;
     text-align: justify;
     border: 2px solid white;
+    margin-left: 5%;
 }
   
 .separator {
@@ -412,12 +414,11 @@ h1, h2, h3, h4, h5, h6{
   
 button[type="submit"] {
     display: block;
-    width: 100%;
+    width: 105%;
     height: 40px;
     padding: 0.5rem;
-    margin-top: 0.5rem;
-    background-color: #fff;
-    color: #333;
+    background-color: orangered;
+    color: #fff;
     border-radius: 5px;
 }
 
