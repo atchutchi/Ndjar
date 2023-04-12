@@ -107,7 +107,6 @@ h1, h2, h3, h4, h5, h6{
     font-size: 130%;
     font-family: 'Rufina', serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
 
     width: 400px;
     height: 200px;
@@ -116,14 +115,18 @@ h1, h2, h3, h4, h5, h6{
     padding-left: 10px;
 
     background-color: rgba(0, 0, 0, 0.5);
-
-    bottom: 30px;
+    bottom: 50px;
     right: 150px;
     
   }
   
 .title-slogan button{
-    background-color: orange;
+    background-color: #795548;
+    display: block;
+    width: 30%;
+    height: 20px;
+    color: #fff;
+    border-radius: 5px;
 }
 
 
@@ -417,7 +420,7 @@ button[type="submit"] {
     width: 105%;
     height: 40px;
     padding: 0.5rem;
-    background-color: orangered;
+    background-color: #795548;
     color: #fff;
     border-radius: 5px;
 }
