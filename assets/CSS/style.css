@@ -539,9 +539,13 @@ footer {
         height: auto;
     }
     .title-slogan{
-        left:0;
-
+        right:0;
     }
+
+    .main-image {
+        height: auto;
+        min-height: 400px;
+      }
 
     .services{
         display: flex;
