@@ -503,8 +503,15 @@ footer {
 
 /* Small screens */
 @media (max-width: 800px) {
+    .title-slogan{
+        left:0;
+
+    }
+
     .services{
-        padding: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .services-content,
     .service-item {
@@ -528,6 +535,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 10px;
     }
     .contacto-info,
     .contacto-form{
