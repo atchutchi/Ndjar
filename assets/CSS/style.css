@@ -46,14 +46,38 @@ h1, h2, h3, h4, h5, h6{
 .menu a{
     text-decoration: none;
     color: inherit;
+    padding: 5px 10px; 
+    position: relative; 
+    transition: all 0.3s ease;
 }
 
 .menu a:hover{
-    border-bottom: 1px solid #fff;
+    color: #795548;
 }
   
-.active{
-    border-bottom: 1px solid #fff;
+.menu a:hover::after {
+    /* Add underline effect */
+    content: '';
+    position: absolute;
+    height: 1px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scaleX(1);
+    transition: transform 0.3s ease;
+    background-color: #fff;
+}
+
+.active::after {
+    /* underline effect to the link */
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 1px;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    transform: scaleX(1);
 }
 
 .menu-color{
