@@ -490,8 +490,15 @@ footer {
 
 /* media queries */
 
-/* for 1200px large to medium screens size*/
+/* responsivity for 1200px large to medium screens size*/
 @media (max-width: 1200px) {
+    .title-slogan {
+        width: 350px;
+        right: 100px;
+        font-size: 120%;
+        padding-top: 30px;
+      }
+
     .about-content {
       flex-direction: column;
     }
@@ -500,11 +507,6 @@ footer {
     .about-image {
       max-width: 100%;
     }
-  
-    .title-slogan {
-      width: 300px;
-      right: 100px;
-    }
 
     .image-content{
         width: auto;
@@ -515,8 +517,14 @@ footer {
 
 }
 
-/* Medium screens */
+/* Medium screens responsivity for 950px */
 @media (max-width: 950px) {
+    .title-slogan {
+        width: 300px;
+        right: 100px;
+        font-size: 110%;
+        padding-top: 20px;
+      }
     .image-content{
         width: auto;
     }
@@ -525,8 +533,11 @@ footer {
     }
 }
 
-/* Small screens */
+/* responsivity for Small screens 800px */
 @media (max-width: 800px) {
+    .main-outer{
+        height: auto;
+    }
     .title-slogan{
         left:0;
 
