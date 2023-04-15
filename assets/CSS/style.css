@@ -542,9 +542,16 @@ footer {
 
 /* responsivity for Small screens 800px */
 @media (max-width: 800px) {
+    .logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
     .menu ul{
         display: flex;
-        flex-direction: collumn;
+        flex-direction: column-reverse;
         align-items: center;
     }
 
