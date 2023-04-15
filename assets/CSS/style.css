@@ -100,15 +100,17 @@ h1, h2, h3, h4, h5, h6{
 .main-image{
     height: 600px;
     width: 100%;
-    background: url('../images/madame-sized.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-    /*animates zoom effect on loading page */
-    animation: zoomIn 10s linear forwards;
+    position: relative;
+    overflow: hidden;
 
 }
+.main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    animation: zoomIn 10s linear forwards;
+  }
 
 /* create zoom fo main image */
 
@@ -522,8 +524,17 @@ footer {
 /* Medium screens responsivity for 950px */
 @media (max-width: 950px) {
 
+    .logo{
+        clear: left;
+        float: left;
+    }
+
     .menu{
         font-size: 90%;
+        display: flex;
+    }
+    .menu-color{
+        padding-bottom: 0;
     }
 
     .title-slogan {
@@ -538,6 +549,11 @@ footer {
     .image-box{
         width: 20%;
     }
+
+    .main-image {
+        height: auto;
+        min-height: 400px;
+      }
 }
 
 /* responsivity for Small screens 800px */
@@ -545,8 +561,10 @@ footer {
     .logo{
         display: block;
         margin-right: auto;
-        margin-top: 50%;
         margin-left: 5%;
+    }
+    .menu-color{
+        padding-bottom: 0;
     }
 
     .menu ul{
@@ -568,6 +586,10 @@ footer {
 
     .main-image {
         height: auto;
+        min-height: 400px;
+      }
+      
+      .main-image img {
         min-height: 400px;
       }
 
