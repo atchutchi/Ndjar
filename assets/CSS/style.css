@@ -56,7 +56,6 @@ h1, h2, h3, h4, h5, h6{
 }
   
 .menu a:hover::after {
-    /* Add underline effect */
     content: '';
     position: absolute;
     height: 1px;
@@ -69,7 +68,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .active::after {
-    /* underline effect to the link */
+    
     content: '';
     position: absolute;
     left: 0;
@@ -200,7 +199,7 @@ h1, h2, h3, h4, h5, h6{
 .about-image img {
     width: 100%;
     height: auto;
-    border-radius: 10px; /* Add a border radius to make the image more appealing */
+    border-radius: 10px; 
 }
 
 .about h1{
@@ -492,6 +491,9 @@ footer {
 
 /* responsivity for 1200px large to medium screens size*/
 @media (max-width: 1200px) {
+    .menu{
+        font-size: 100%;
+    }
     .title-slogan {
         width: 350px;
         right: 100px;
@@ -519,6 +521,11 @@ footer {
 
 /* Medium screens responsivity for 950px */
 @media (max-width: 950px) {
+
+    .menu{
+        font-size: 90%;
+    }
+
     .title-slogan {
         width: 300px;
         right: 100px;
@@ -535,6 +542,16 @@ footer {
 
 /* responsivity for Small screens 800px */
 @media (max-width: 800px) {
+    .menu ul{
+        display: flex;
+        flex-direction: collumn;
+        align-items: center;
+    }
+
+    .menu li{
+        text-align: center;
+        float: none;
+    }
     .main-outer{
         height: auto;
     }
