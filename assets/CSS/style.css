@@ -525,8 +525,7 @@ footer {
 @media (max-width: 950px) {
 
     .logo{
-        clear: left;
-        float: left;
+        width: 60px;
     }
 
     .menu{
@@ -562,6 +561,7 @@ footer {
         display: block;
         margin-right: auto;
         margin-left: 5%;
+        width: 70px;
     }
     .menu-color{
         padding-bottom: 0;
@@ -571,11 +571,13 @@ footer {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        padding: 0;
     }
 
     .menu li{
         text-align: center;
         float: none;
+        margin-bottom: 10px;
     }
     .main-outer{
         height: auto;
