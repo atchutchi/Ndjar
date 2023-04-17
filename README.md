@@ -60,7 +60,13 @@ A thorough testing process has been carried out to guarantee that the site funct
 
 ### Feature Testing
 - Navigation Menu (responsivity)
-- Main Image (zoom in, responsivity)
+
+#### Main Image (zoom in, responsivity)
+- I was using the Main Image outer in style.css and it was working well, but I had issues when creating media queries for screen responsiveness of 950px and smaller. I tried using height auto, 100%, max-height 400px and 600px, but it didn't look good and the image was always distorted. So, I moved the background image from style.css to index.html, where I added the img src tag, using the object-fit property to maintain the image's aspect ratio without distorting it. With this change, I removed the background from the CSS and the .main-image class, and added object-fit: cover to the .main-image img class.
+Link reference: https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
+
+- To implement the zoom in effect, I initially used the `zoomIn` animation with `linear forwards` and `@keyframes` with `background-size`, but it wasn't working. After researching at https://www.w3schools.com/howto/howto_css_zoom_hover.asp, I realized that the `img` tag is not a background, so I had to change it to `transform scale`.
+
 - Service (responsivity)
 - Team (responsivity)
 
