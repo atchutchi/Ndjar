@@ -3,9 +3,14 @@
 
 ## Overview
 
-N'djar is an integrated system (digital platform) associated with the Agricultural Land Suitability Assessment system that uses technological channels for the dissemination and distribution of various agricultural information and statistics for the efficient and appropriate use of the national productive force of soils and lands. It is based on the interpretation of soil vocation, environmental characteristics, and the assessment of land limitations for agricultural use. The platform aims to provide the most suitable use possibilities for a given area, considering different alternatives for management practices.
+N'djar is an integrated system (digital platform) associated with the Agricultural Land Suitability Assessment system that uses technological 
+channels for the dissemination and distribution of various agricultural information and statistics for the efficient and appropriate use of 
+the national productive force of soils and lands. It is based on the interpretation of soil vocation, environmental characteristics, and the 
+assessment of land limitations for agricultural use. The platform aims to provide the most suitable use possibilities for a given area, 
+considering different alternatives for management practices.
 
-Through N'djar, users can access information such as what, how, and where to produce, soil vocation, and suitable cultivation for each cultivation plot. The distribution system includes a 3-digit USSD number, APK mobile applications, and technical assistance.
+Through N'djar, users can access information such as what, how, and where to produce, soil vocation, and suitable cultivation for each cultivation 
+plot. The distribution system includes a 3-digit USSD number, APK mobile applications, and technical assistance.
 ![N'djar Devices](./assets/images/devices.png)
 
 ## Table of Contents
@@ -20,37 +25,48 @@ Through N'djar, users can access information such as what, how, and where to pro
 
 ## Strategy
 
-The main goal of the platform is to provide users with easy access to agricultural information, land suitability assessments, and technical assistance. The platform will be designed with a clean and straightforward interface that allows users to navigate and access the information they need quickly.
+The main goal of the platform is to provide users with easy access to agricultural information, land suitability assessments, 
+and technical assistance. The platform will be designed with a clean and straightforward interface that allows users to navigate
+and access the information they need quickly.
 
 
 ## Features
 
 ![Navigation Bar](./assets/images/frame-navigation-menu.png)
 
-    - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home , Ndjar Project, Meet Us, Service, Theory of Change and contact page to allow for easy navigation.
+    - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home , Ndjar Project, 
+    Meet Us, Service, Theory of Change and contact page to allow for easy navigation.
 
-    - This section will allow the user to easily navigate across all devices without having to revert back to the previous page via the ‘back’ button because is one page website.
+    - This section will allow the user to easily navigate across all devices without having to revert back to the previous 
+    page via the ‘back’ button because is one page website.
 
 ![Landing Page](./assets/images/frame-landing-page.png)
 
-    - My landing page features an image of the female farmers, who represent the largest productive force in Guinea-Bissau, along with a call to action for website visitors to contact us immediately and improve their productivity.
+    - My landing page features an image of the female farmers, who represent the largest productive force in Guinea-Bissau,
+    along with a call to action for website visitors to contact us immediately and improve their productivity.
 
 
 ![Ndjar Project](./assets/images/frame-about.png)
 
-    - The Ndjar Project page provides detailed information about the project, its objectives, and the impact it has on the community. This section showcases the organization's work and achievements.
+    - The Ndjar Project page provides detailed information about the project, its objectives, and the impact it has on the community.
+    This section showcases the organization's work and achievements.
 
 ![Services](./assets/images/frame-services.png)
 
     - The services page highlights the 3 services:
 
     1. **N'djar USSD Application**: Quick and easy access to agricultural information through a 3-digit USSD number.
-    2. **N'djar Mobile APK Application**: A dedicated mobile application, available for Android devices, that offers a richer and more personalized experience for users.
-    3. **N'djar Technical Consultancy**: Technical assistance and specialized advice for farmers, helping them make informed decisions and improve productivity.
+
+    2. **N'djar Mobile APK Application**: A dedicated mobile application, available for Android devices, that offers 
+    a richer and more personalized experience for users.
+
+    3. **N'djar Technical Consultancy**: Technical assistance and specialized advice for farmers, helping them make 
+    informed decisions and improve productivity.
 
 
 ![Theory of Change](./assets/images/frame-theory-of-change.png)
-    - The Theory of Change page explains the organization's approach to creating positive change in the community. It provides insights into their methodology and guiding principles.
+    - The Theory of Change page explains the organization's approach to creating positive change in the community. 
+    It provides insights into their methodology and guiding principles.
 
 ![Meet us](./assets/images/frame-meet-us.png)
 
@@ -58,7 +74,8 @@ The main goal of the platform is to provide users with easy access to agricultur
 
 ![Contact us](./assets/images/frame-contact.png)
 
-    - The Contact Us page provides users with a simple form to get in touch with the organization, as well as contact information such as phone numbers, email addresses, and social media links.
+    - The Contact Us page provides users with a simple form to get in touch with the organization, as well as contact information such as 
+    phone numbers, email addresses, and social media links.
 
 ![Footer](./assets/images/frame-footer.png)
 
@@ -66,7 +83,8 @@ The main goal of the platform is to provide users with easy access to agricultur
 
 ## Testing
 
-A thorough testing process has been carried out to guarantee that the site functions properly and offers a positive user experience. The project's features, functionality, and responsiveness across various browsers and screen sizes were the main emphasis of the testing procedure.
+A thorough testing process has been carried out to guarantee that the site functions properly and offers a positive user experience. 
+The project's features, functionality, and responsiveness across various browsers and screen sizes 1200px, 950px, 800px equal or bellow were the main emphasis of the testing procedure where I had a lot of difficulty adapting when to use padding and margin, combining with flexbox. soon I spent many days testing the code using google devtool to see how responsive it is when I reduce it, looking for the best format so that the contents are well illustrated and presented.
 
 ### Feature Testing
 
