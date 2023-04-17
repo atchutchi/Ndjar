@@ -10,40 +10,19 @@ Through N'djar, users can access information such as what, how, and where to pro
 ## Table of Contents
 - Overview
 - Strategy
-- Scope
-- Structure
-- Skeleton
-- Services
-- Target Audience
-- How to Use
-- Tecnologies Used
-- Author
--Acknoledgements
+- Features
+- Testing
+- Validator Testing
+- Deployment
+- Credits
+- Other General Project Advice
 
-### Strategy
+## Strategy
 
 The main goal of the platform is to provide users with easy access to agricultural information, land suitability assessments, and technical assistance. The platform will be designed with a clean and straightforward interface that allows users to navigate and access the information they need quickly.
 
-### Scope
 
-The platform will include the following features:
-
-- Access to agricultural information through a 3-digit USSD number.
-- A dedicated mobile application for Android devices.
-- Technical assistance and specialized advice for farmers.
-
-### Structure
-
-The platform will be structured into three main sections:
-
-1. Home: Provides an overview of the platform and its services.
-2. About: 
-3. Services: Describes the different services offered by the platform.
-4. Theory of Change:
-5. Meet Us: 
-6. Contact: Allows users to get in touch with the platform's support team.
-
-### Skeleton
+## Features
 
 - [Home](../assets/images/)
 
@@ -74,3 +53,34 @@ The platform will be structured into three main sections:
 - [Footer](../assets/images/)
 
     - The footer contains essential social media icons to help users stay connected with the organization. 
+
+## Testing
+
+A thorough testing process has been carried out to guarantee that the site functions properly and offers a positive user experience. The project's features, functionality, and responsiveness across various browsers and screen sizes were the main emphasis of the testing procedure.
+
+### Feature Testing
+
+### Responsiveness Testing
+
+The following browsers were used to test the website for compatibility and uniform appearance:
+
+- Mozilla Firefox 
+- Google Chrome
+- Safari 
+- Microsoft Edge
+
+In addition, the site's responsiveness was examined across a range of screen sizes, including those of mobile devices and huge desktop monitors.
+
+### Validator Testing
+
+#### HTML
+
+Error: Element h3 not allowed as child of element button in this context. (Suppressing further errors from this subtree.)
+
+From line 46, column 21; to line 46, column 24
+
+  <button><h3>Try it
+
+#### CSS
+when using the css validator I found this error below, and to fix it I removed the px since "400px" is not a valid value for this property. The font-weight property accepts unitless numbers and predefined weight names
+"12 body Value error : font-weight 400px is not a value font-weight : 400px"
