@@ -570,6 +570,9 @@ footer {
         margin-left: 5%;
         width: 70px;
     }
+    .menu{
+        font-size: 90%;
+    }
     .menu-color{
         padding-bottom: 0;
     }
@@ -584,7 +587,6 @@ footer {
     .menu li{
         text-align: center;
         float: none;
-        margin-bottom: 10px;
     }
     .main-outer{
         height: auto;
