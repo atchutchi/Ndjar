@@ -24,22 +24,22 @@ The main goal of the platform is to provide users with easy access to agricultur
 
 ## Features
 
-![Navigation Bar](../Ndjar/assets/images/frame-navigation-menu.png)
+![Navigation Bar](./assets/images/frame-navigation-menu.png)
 
     - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home , Ndjar Project, Meet Us, Service, Theory of Change and contact page to allow for easy navigation.
 
     - This section will allow the user to easily navigate across all devices without having to revert back to the previous page via the ‘back’ button because is one page website.
 
-![Landing Page](../Ndjar/assets/images/frame-landing-page.png)
+![Landing Page](./assets/images/frame-landing-page.png)
 
     - My landing page features an image of the female farmers, who represent the largest productive force in Guinea-Bissau, along with a call to action for website visitors to contact us immediately and improve their productivity.
 
 
-![Ndjar Project](../Ndjar/assets/images/frame-about.png)
+![Ndjar Project](./assets/images/frame-about.png)
 
     - The Ndjar Project page provides detailed information about the project, its objectives, and the impact it has on the community. This section showcases the organization's work and achievements.
 
-![Services](../Ndjar/assets/images/frame-services.png)
+![Services](./assets/images/frame-services.png)
 
     - The services page highlights the 3 services:
 
@@ -48,18 +48,18 @@ The main goal of the platform is to provide users with easy access to agricultur
     3. **N'djar Technical Consultancy**: Technical assistance and specialized advice for farmers, helping them make informed decisions and improve productivity.
 
 
-![Theory of Change](../Ndjar/assets/images/frame-theory-of-change.png)
+![Theory of Change](./assets/images/frame-theory-of-change.png)
     - The Theory of Change page explains the organization's approach to creating positive change in the community. It provides insights into their methodology and guiding principles.
 
-![Meet us](../Ndjar/assets/images/frame-meet-us.png)
+![Meet us](./assets/images/frame-meet-us.png)
 
     -The Meet Us page introduces the team members behind the organization users connect with the people responsible for the project's success.
 
-![Contact us](../Ndjar/assets/images/frame-contact.png)
+![Contact us](./assets/images/frame-contact.png)
 
     - The Contact Us page provides users with a simple form to get in touch with the organization, as well as contact information such as phone numbers, email addresses, and social media links.
 
-![Footer](../Ndjar/assets/images/frame-footer.png)
+![Footer](./assets/images/frame-footer.png)
 
     - The footer contains essential social media icons to help users stay connected with the organization. 
 
