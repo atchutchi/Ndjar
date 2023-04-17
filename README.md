@@ -59,6 +59,11 @@ The main goal of the platform is to provide users with easy access to agricultur
 A thorough testing process has been carried out to guarantee that the site functions properly and offers a positive user experience. The project's features, functionality, and responsiveness across various browsers and screen sizes were the main emphasis of the testing procedure.
 
 ### Feature Testing
+- Navigation Menu (responsivity)
+- Main Image (zoom in, responsivity)
+- Service (responsivity)
+- Team (responsivity)
+
 
 ### Responsiveness Testing
 
