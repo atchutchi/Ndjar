@@ -596,6 +596,12 @@ footer {
         min-height: 400px;
       }
 
+      .about-text,
+    .about-image {
+      max-width: 100%;
+      margin-left: 5%;
+    }
+
     .services{
         display: flex;
         flex-direction: column;
