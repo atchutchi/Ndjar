@@ -59,7 +59,9 @@ The main goal of the platform is to provide users with easy access to agricultur
 A thorough testing process has been carried out to guarantee that the site functions properly and offers a positive user experience. The project's features, functionality, and responsiveness across various browsers and screen sizes were the main emphasis of the testing procedure.
 
 ### Feature Testing
-- Navigation Menu (responsivity)
+
+#### Navigation Menu (responsivity)
+- I was having a lot of difficulty adapting my navigation menu to align correctly, from the "Home" option to "Contact". I also had trouble keeping it visible when using responsiveness for screens of 950px and 800px. I reduced the font size to 70% in the @media (max-width: 950px) and used display flex to maintain the alignment without breaking the text in the line. In the @media (max-width: 800px), I used the "flex-direction: column-reverse" property on the "ul" menu to order the text and position the options in vertical columns.
 
 #### Main Image (zoom in, responsivity)
 - I was using the Main Image outer in style.css and it was working well, but I had issues when creating media queries for screen responsiveness of 950px and smaller. I tried using height auto, 100%, max-height 400px and 600px, but it didn't look good and the image was always distorted. So, I moved the background image from style.css to index.html, where I added the img src tag, using the object-fit property to maintain the image's aspect ratio without distorting it. With this change, I removed the background from the CSS and the .main-image class, and added object-fit: cover to the .main-image img class.
