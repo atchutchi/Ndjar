@@ -74,6 +74,7 @@ In addition, the site's responsiveness was examined across a range of screen siz
 ### Validator Testing
 
 #### HTML
+by running the test at https://validator.w3.org/ i found error below and i remove the element h3 to fixed the error.
 
 Error: Element h3 not allowed as child of element button in this context. (Suppressing further errors from this subtree.)
 
@@ -82,5 +83,16 @@ From line 46, column 21; to line 46, column 24
   <button><h3>Try it
 
 #### CSS
-when using the css validator I found this error below, and to fix it I removed the px since "400px" is not a valid value for this property. The font-weight property accepts unitless numbers and predefined weight names
+when using the css validator https://jigsaw.w3.org/css-validator/validator I found this error below, and to fix it I removed the px since "400px" is not a valid value for this property. The font-weight property accepts unitless numbers and predefined weight names
 "12 body Value error : font-weight 400px is not a value font-weight : 400px"
+
+## Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- Log in to your GitHub account and go to the main page of your repository.
+- Click on the "Settings" tab at the top of the repository page.
+- Scroll down to the "GitHub Pages" section.
+- In the "Source" drop-down menu, select "main" or "master" (depending on your setup) and choose the "root" or "docs" folder if you are using a specific folder to host your site.
+- Click on "Save."
+- The page will refresh, and after a few moments, you will see a message stating that the deployment was successful. The live link to your site will be provided just below this message.
+
+## Credits
