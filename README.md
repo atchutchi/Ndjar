@@ -75,9 +75,9 @@ A thorough testing process has been carried out to guarantee that the site funct
 
 #### Main Image (zoom in, responsivity)
 - I was using the Main Image outer in style.css and it was working well, but I had issues when creating media queries for screen responsiveness of 950px and smaller. I tried using height auto, 100%, max-height 400px and 600px, but it didn't look good and the image was always distorted. So, I moved the background image from style.css to index.html, where I added the img src tag, using the object-fit property to maintain the image's aspect ratio without distorting it. With this change, I removed the background from the CSS and the .main-image class, and added object-fit: cover to the .main-image img class.
-Link reference: https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
+Link reference: [https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit]
 
-- To implement the zoom in effect, I initially used the `zoomIn` animation with `linear forwards` and `@keyframes` with `background-size`, but it wasn't working. After researching at https://www.w3schools.com/howto/howto_css_zoom_hover.asp, I realized that the `img` tag is not a background, so I had to change it to `transform scale`.
+- To implement the zoom in effect, I initially used the `zoomIn` animation with `linear forwards` and `@keyframes` with `background-size`, but it wasn't working. After researching at [https://www.w3schools.com/howto/howto_css_zoom_hover.asp], I realized that the `img` tag is not a background, so I had to change it to `transform scale`.
 
 - Service (responsivity)
 - Team (responsivity)
@@ -97,7 +97,7 @@ In addition, the site's responsiveness was examined across a range of screen siz
 ### Validator Testing
 
 #### HTML
-by running the test at https://validator.w3.org/ i found error below and i remove the element h3 to fixed the error.
+by running the test at [https://validator.w3.org/] i found error below and i remove the element h3 to fixed the error.
 
 Error: Element h3 not allowed as child of element button in this context. (Suppressing further errors from this subtree.)
 
@@ -106,7 +106,7 @@ From line 46, column 21; to line 46, column 24
   <button><h3>Try it
 
 #### CSS
-when using the css validator https://jigsaw.w3.org/css-validator/validator I found this error below, and to fix it I removed the px since "400px" is not a valid value for this property. The font-weight property accepts unitless numbers and predefined weight names
+when using the css validator [https://jigsaw.w3.org/css-validator/validator] I found this error below, and to fix it I removed the px since "400px" is not a valid value for this property. The font-weight property accepts unitless numbers and predefined weight names
 "12 body Value error : font-weight 400px is not a value font-weight : 400px"
 
 ## Deployment
@@ -119,3 +119,18 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - The page will refresh, and after a few moments, you will see a message stating that the deployment was successful. The live link to your site will be provided just below this message.
 
 ## Credits
+
+### Content
+
+- The text for the "N'djar" project was provided by me the project owner through the study carried 
+out with field research and market analysis for the implementation of the business model.
+- To create Skeleton of the project it was used the Balsamiq wireframe [https://balsamiq.cloud/sf5rzkr/pcm5qyn/r0DFF]
+- Assistance with HTML, CSS was provided by [https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit] [https://css-tricks.com/], and [https://www.w3schools.com/].
+- Tutorials and documentation from [https://www.youtube.com/watch?v=7-orzsht98k], and [My Mentor Can Sücüllü] were consulted during the development process.
+- The font of the text was used google font [https://fonts.google.com/]
+
+### Media
+- The logo of the project was created by me.
+- The images from the webpage was downloaded at Freepik and Unsplash [https://www.freepik.com/] [https://unsplash.com/]
+- The SDG images was downloaded at Wikipedia.
+- The icons in the footer were taken from Font Awesome [https://fontawesome.com/]
