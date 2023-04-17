@@ -21,7 +21,6 @@ plot. The distribution system includes a 3-digit USSD number, APK mobile applica
 - Validator Testing
 - Deployment
 - Credits
-- Other General Project Advice
 
 ## Strategy
 
