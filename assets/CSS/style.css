@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6{
     right: 150px;
     
   }
-  
+
 .title-slogan .button{
     background-color: #795548;
     display: inline;
@@ -559,11 +559,6 @@ footer {
         width: 20%;
     }
 
-    .main-image {
-        height: auto;
-        min-height: 400px;
-      }
-}
 
 /* responsivity for Small screens 800px */
 @media (max-width: 800px) {
