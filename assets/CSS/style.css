@@ -147,21 +147,25 @@ h1, h2, h3, h4, h5, h6{
     
   }
   
-.title-slogan button{
+.title-slogan .button{
     background-color: #795548;
-    display: block;
+    display: inline-block;
     width: 30%;
     height: 20px;
     color: #fff;
     border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    line-height: 1.5;
+    }
+
+.title-slogan .button:hover {
+    background-color: #8d6e63;
 }
+  
 
-.title-slogan button a{
-    color: #fff;
-}
-
-
-/* About */
+/* about section*/
 .about {
     background-color: #333;
     padding: 2rem;
