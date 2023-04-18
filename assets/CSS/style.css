@@ -149,9 +149,8 @@ h1, h2, h3, h4, h5, h6{
   
 .title-slogan .button{
     background-color: #795548;
-    display: inline-block;
-    width: 30%;
-    height: 20px;
+    display: inline;
+    padding: 5px 10px;
     color: #fff;
     border-radius: 5px;
     text-align: center;
