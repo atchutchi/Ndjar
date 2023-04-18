@@ -133,15 +133,21 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ### Content
 
-- The text for the "N'djar" project was provided by me the project owner through the study carried 
+- The text for the "N'djar" project was provided by me the project owner through the study carried.
 out with field research and market analysis for the implementation of the business model.
-- To create Skeleton of the project it was used the Balsamiq wireframe [https://balsamiq.cloud/sf5rzkr/pcm5qyn/r0DFF]
-- Assistance with HTML, CSS was provided by [https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit] [https://css-tricks.com/], and [https://www.w3schools.com/].
-- Tutorials and documentation from [https://www.youtube.com/watch?v=7-orzsht98k], and [My Mentor Can Sücüllü] were consulted during the development process.
 - The font of the text was used google font [https://fonts.google.com/]
+- The icons were imported from Font Awesome [https://fontawesome.com/]
 
 ### Media
 - The logo of the project was created by me.
-- The images from the webpage was downloaded at Freepik and Unsplash [https://www.freepik.com/] [https://unsplash.com/]
+- To create Skeleton of the project it was used the Balsamiq wireframe [https://balsamiq.cloud/sf5rzkr/pcm5qyn/r0DFF].
+- The images from the webpage was downloaded at Freepik and Unsplash [https://www.freepik.com/] [https://unsplash.com/].
 - The SDG images was downloaded at Wikipedia.
 - The icons in the footer were taken from Font Awesome [https://fontawesome.com/]
+
+### Code
+- There was no copy paste code from another source or website but inspirations on how to do it.
+- Assistance with HTML, CSS was provided by [https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit] [https://css-tricks.com/], and [https://www.w3schools.com/].
+- Tutorials and documentation from [https://www.youtube.com/watch?v=7-orzsht98k].
+- [My Mentor Can Sücüllü] were consulted during the development process.
+- the development of the site was inspired by the Love Running website of the code institute.
