@@ -114,13 +114,7 @@ In addition, the site's responsiveness was examined across a range of screen siz
 ### Validator Testing
 
 #### HTML
-by running the test at [https://validator.w3.org/] i found error below and i remove the element h3 to fixed the error.
-
-Error: Element h3 not allowed as child of element button in this context. (Suppressing further errors from this subtree.)
-
-From line 46, column 21; to line 46, column 24
-
-  <button><h3>Try it
+by running the test at [https://validator.w3.org/] Document checking completed. No errors or warnings to show
 
 #### CSS
 when using the css validator [https://jigsaw.w3.org/css-validator/validator] I found this error below, and to fix it I removed the px since "400px" is not a valid value for this property. The font-weight property accepts unitless numbers and predefined weight names
