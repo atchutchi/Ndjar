@@ -82,8 +82,10 @@ and access the information they need quickly.
 
 ## Testing
 
-A thorough testing process has been carried out to guarantee that the site functions properly and offers a positive user experience. 
 The project's features, functionality, and responsiveness across various browsers and screen sizes 1200px, 950px, 800px equal or bellow were the main emphasis of the testing procedure where I had a lot of difficulty adapting when to use padding and margin, combining with flexbox. soon I spent many days testing the code using google devtool to see how responsive it is when I reduce it, looking for the best format so that the contents are well illustrated and presented.
+
+- When using the css validator [https://jigsaw.w3.org/css-validator/validator] I found this error below, and to fix it by remove the px since "400px" is not a valid value for this property. The font-weight property accepts unitless numbers and predefined weight names
+"12 body Value error : font-weight 400px is not a value font-weight : 400px";
 
 ### Feature Testing
 
@@ -117,8 +119,7 @@ In addition, the site's responsiveness was examined across a range of screen siz
 by running the test at [https://validator.w3.org/] Document checking completed. No errors or warnings to show
 
 #### CSS
-when using the css validator [https://jigsaw.w3.org/css-validator/validator] I found this error below, and to fix it I removed the px since "400px" is not a valid value for this property. The font-weight property accepts unitless numbers and predefined weight names
-"12 body Value error : font-weight 400px is not a value font-weight : 400px"
+
 
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:

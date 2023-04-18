@@ -551,7 +551,12 @@ footer {
         right: 100px;
         font-size: 110%;
         padding-top: 20px;
-      }
+    }
+
+    .about-image{
+        width: 35%;
+    }
+
     .image-content{
         width: auto;
     }
