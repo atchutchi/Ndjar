@@ -143,11 +143,11 @@ The project's features, functionality, and responsiveness across various browser
 The following browsers were used to test the website for compatibility and uniform appearance:
 
 - Mozilla Firefox 
+![responsivity](./assets/images/firefox.png)
 - Google Chrome
-
-- Safari 
+![resposivity](./assets/images/)
 - Microsoft Edge
-![lighthouse](./assets/images/edge.png)
+![responsivity](./assets/images/edge.png)
 
 In addition, the site's responsiveness was examined across a range of screen sizes, including those of mobile devices and huge desktop monitors.
 
