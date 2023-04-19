@@ -157,6 +157,8 @@ by running the test at [https://validator.w3.org/] Document checking completed. 
 
 #### CSS
 
+#### Accessibility
+
 
 #### Unsolved testing
 1. **Problem:** In the media query for 800px and below, I couldn't position the logo to be centered on the left. I tried some troubleshooting but couldn't resolve the issue..
