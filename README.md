@@ -158,6 +158,8 @@ by running the test at [https://validator.w3.org/] Document checking completed. 
 #### CSS
 
 #### Accessibility
+- I confirmed that colors and fonts chosen are easy to read and accessible by running it through lightouse in chrome devtools
+![lighthouse](./assets/images/lighthouse.png)
 
 
 #### Unsolved testing
