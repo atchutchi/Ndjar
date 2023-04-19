@@ -87,15 +87,15 @@ The project's features, functionality, and responsiveness across various browser
 
 ### Feature Troubleshooting
 
-1. **Problem:** Main Image (zoom in, responsivity) I was using the Main Image outer in style.css and it was working well, but I had issues when creating media queries for screen responsiveness of 950px and smaller. 
-    - **Solution:**I tried using height auto, 100%, max-height 400px and 600px, but it didn't look good and the image was always distorted. So, I moved the background image from style.css to index.html, where I added the img src tag, using the object-fit property to maintain the image's aspect ratio without distorting it. With this change, I removed the background from the CSS and the .main-image class, and added object-fit: cover to the .main-image img class.
+1. **Problem:** Main Image (zoom in, responsivity) I was using the Main Image outer in style.css and it was working well, but I had issues when creating media queries  for screen responsiveness of 950px and smaller. 
+    - **Solution:** I tried using height auto, 100%, max-height 400px and 600px, but it didn't look good and the image was always distorted. So, I moved the background image from style.css to index.html, where I added the img src tag, using the object-fit property to maintain the image's aspect ratio without distorting it. With this change, I removed the background from the CSS and the .main-image class, and added object-fit: cover to the .main-image img class.
     - Link reference: (https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
     - To implement the zoom in effect, I initially used the `zoomIn` animation with `linear forwards` and `@keyframes` with `background-size`, but it wasn't working. After researching at (https://www.w3schools.com/css/css3_animations.asp), I realized that the `img` tag is not a background, so I had to change it to `transform scale`.
 
 2. **Problem:** The 2 columns of the contact belonged to the same class and I couldn't add margin between them.
-   - **Solution:** I created a new class to distinguish the two columns and be able to make the necessary formatting.
-   - **Commit:** [Link to the related commit]( https://github.com/atchutchi/Ndjar/commit/96dd93b19ab4f04e9a4ac0d3da3c278cec00031a)
-- **Commit:** [Link to the related commit]( https://github.com/atchutchi/Ndjar/commit/3a0b1ee7cb751677a501675c755d8fcec3f9ad95)
+    - **Solution:** I created a new class to distinguish the two columns and be able to make the necessary formatting.
+    - **Commit:** [Link to the related commit]( https://github.com/atchutchi/Ndjar/commit/96dd93b19ab4f04e9a4ac0d3da3c278cec00031a)
+    - **Commit:** [Link to the related commit]( https://github.com/atchutchi/Ndjar/commit/3a0b1ee7cb751677a501675c755d8fcec3f9ad95)
 
 3. **Problem:** When using the css validator [https://jigsaw.w3.org/css-validator/validator] I found this error "12 body Value error : font-weight 400px is not a value font-weight : 400px";, 
     - **Solution:** to fix it by remove the px since "400px" is not a valid value for this property. The font-weight property accepts unitless numbers and predefined weight names.
@@ -105,46 +105,46 @@ The project's features, functionality, and responsiveness across various browser
 
 #### Logo and Navigtion Bar
 1. **Problem:** The menu didn't look good in responsive format, it collapsed, and it wasn't aligned from home to contact.
-   - **Solution:** I reorganized the media queries for 950px and 800px and smaller, making the font size reduce to 70px for 950px and smaller, and for 800px and below, I used flex direction: column-reverse to keep the navigation bar aligned in a column (this also sorted the menu to keep it in the correct order)..
-   - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/40879cd6e7e414607156f33d897409738448c564)
-   - **Commit:** [Link to final commit]( https://github.com/atchutchi/Ndjar/commit/1244e66ac83acc6957e9b1fb8af07b69539a11ae)
+    - **Solution:** I reorganized the media queries for 950px and 800px and smaller, making the font size reduce to 70px for 950px and smaller, and for 800px and below, I used flex direction: column-reverse to keep the navigation bar aligned in a column (this also sorted the menu to keep it in the correct order)..
+    - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/40879cd6e7e414607156f33d897409738448c564)
+    - **Commit:** [Link to final commit]( https://github.com/atchutchi/Ndjar/commit/1244e66ac83acc6957e9b1fb8af07b69539a11ae)
 
 2. **Problem:** Alignment of the logo and navigation bar.
-   - **Solution:**  Using Chrome DevTools, I identified the problem with the width and added padding and margin-bottom to resolve the alignment issue for @media 950px and below.   - **Commit:** [Link to related commit](https://github.com/atchutchi/Ndjar/commit/0692589fcc4023b86c9f390131c0c46c789e7cc3)
+    - **Solution:**  Using Chrome DevTools, I identified the problem with the width and added padding and margin-bottom to resolve the alignment issue for @media 950px and below.   - **Commit:** [Link to related commit](https://github.com/atchutchi/Ndjar/commit/0692589fcc4023b86c9f390131c0c46c789e7cc3)
 
 #### Landing Page
 1. **Problem:** The Landing page image was not adjusting properly for responsive formats of 950px or smaller. I tried using various Height formats to see if it looked good when switching devices and took the opportunity to adjust the title-slogan to adapt to responsiveness.
-   - **Solution:** After several troubleshooting attempts, I removed the image from the CSS and added it to the HTML, and it worked well.
-   - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/2ba9d155a7e0835c7e69c606e62af03c976b3cf1)
-
-- **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/a67614db943a4d94b5664221e87fee9d0ad9405c)
-- **Commit:** [Link to the final result]( https://github.com/atchutchi/Ndjar/commit/a67614db943a4d94b5664221e87fee9d0ad9405c)
+    - **Solution:** After several troubleshooting attempts, I removed the image from the CSS and added it to the HTML, and it worked well.
+    - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/2ba9d155a7e0835c7e69c606e62af03c976b3cf1)
+    - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/a67614db943a4d94b5664221e87fee9d0ad9405c)
+    - **Commit:** [Link to the final result]( https://github.com/atchutchi/Ndjar/commit/a67614db943a4d94b5664221e87fee9d0ad9405c)
 
 #### About
 
 
 #### Service
 1. **Problem:** The title of the Service section and the columns were not aligned vertically and centered..
-   - **Solution:** I added flex direction and aligned it to the center by removing the margins; it almost looked good, but the columns still seemed misaligned.
-   - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/6e9629e153d69344c0bb35b9919276934a083b1e)
+    - **Solution:** I added flex direction and aligned it to the center by removing the margins; it almost looked good, but the columns still seemed misaligned.
+    - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/6e9629e153d69344c0bb35b9919276934a083b1e)
 
 #### Theory of Change
 
 #### Meet us
 1. **Problem:** When testing the responsive layout in the Meet Us section for medium and small screens, the columns overlapped each other, and the text went out of shape, so the content of the columns was not displayed correctly on mobile devices.
-   - **Solution:** I used flex direction: column and aligned them to the center.
-   - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/6242dfd9d07cb8ad0903a3ad61c0e1b2cba545e9)
+    - **Solution:** I used flex direction: column and aligned them to the center.
+    - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/6242dfd9d07cb8ad0903a3ad61c0e1b2cba545e9)
 
 #### Contact
 1. **Problem:** When testing the responsive layout in the Meet Us section for medium and small screens, the columns overlapped each other, and the text went out of shape, so the content of the columns was not displayed correctly on mobile devices.
-   - **Solution:** I used flex direction: column and aligned them to the center.
-   - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/3f7d1632eb07a083745b7f0abd0bdb2c2adcfe86)
+    - **Solution:** I used flex direction: column and aligned them to the center.
+    - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/3f7d1632eb07a083745b7f0abd0bdb2c2adcfe86)
 
 
 The following browsers were used to test the website for compatibility and uniform appearance:
 
 - Mozilla Firefox 
 - Google Chrome
+
 - Safari 
 - Microsoft Edge
 ![lighthouse](./assets/images/edge.png)
@@ -164,9 +164,9 @@ by running the test at [https://validator.w3.org/] Document checking completed. 
 
 
 #### Unsolved testing
-1. **Problem:** In the media query for 800px and below, I couldn't position the logo to be centered on the left. I tried some troubleshooting but couldn't resolve the issue..
+1. **Problem:** In the media query for 800px and below, I couldn't position the logo to be centered on the left. I tried some troubleshooting but couldn't resolve the issue.
      - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/c11b2850dfeb7a79c5114baf7b72cebd4e76ed75)
-    - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/0692589fcc4023b86c9f390131c0c46c789e7cc3)
+     - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/0692589fcc4023b86c9f390131c0c46c789e7cc3)
 
 
 ## Deployment
@@ -184,12 +184,12 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 - The text for the "N'djar" project was provided by me the project owner through the study carried.
 out with field research and market analysis for the implementation of the business model.
-- The font of the text was used google font (https://fonts.google.com/)
-- The icons were imported from Font Awesome (https://fontawesome.com/)
+- The font of the text was used google font (https://fonts.google.com/).
+- The icons were imported from Font Awesome (https://fontawesome.com/).
 
 ### Media
 - The logo of the project was created by me.
-- Screenshot of the responsive where taken from (https://ui.dev/amiresponsive?url=https://atchutchi.github.io/Ndjar/)
+- Screenshot of the responsive where taken from (https://ui.dev/amiresponsive?url=https://atchutchi.github.io/Ndjar/).
 - To create Skeleton of the project it was used the Balsamiq wireframe (https://balsamiq.cloud/sf5rzkr/pcm5qyn/r0DFF).
 - The images from the webpage was downloaded at Freepik and Unsplash (https://www.freepik.com/) (https://unsplash.com/).
 - The SDG images was downloaded at Wikipedia.
