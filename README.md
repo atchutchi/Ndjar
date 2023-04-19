@@ -119,8 +119,6 @@ The project's features, functionality, and responsiveness across various browser
     - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/a67614db943a4d94b5664221e87fee9d0ad9405c)
     - **Commit:** [Link to the final result]( https://github.com/atchutchi/Ndjar/commit/a67614db943a4d94b5664221e87fee9d0ad9405c)
 
-#### About
-
 
 #### Service
 1. **Problem:** The title of the Service section and the columns were not aligned vertically and centered..
@@ -140,8 +138,7 @@ The project's features, functionality, and responsiveness across various browser
     - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/3f7d1632eb07a083745b7f0abd0bdb2c2adcfe86)
 
 
-The following browsers were used to test the website for compatibility and uniform appearance:
-
+The subsequent web browsers were utilized to evaluate the website's compatibility and consistent appearance. Comprehensive responsiveness tests were conducted, and the results indicated satisfactory performance across these platforms, ensuring a seamless user experience.
 - Mozilla Firefox 
 ![responsivity](./assets/images/firefox.png)
 - Google Chrome
@@ -154,9 +151,12 @@ In addition, the site's responsiveness was examined across a range of screen siz
 ### Validator Testing
 
 #### HTML
-by running the test at [https://validator.w3.org/] Document checking completed. No errors or warnings to show
+by running the test at [Validator w3 html](https://validator.w3.org/) Document checking completed. No errors or warnings to show
 
 #### CSS
+by running the test at [Jigsaw w3 css/](https://jigsaw.w3.org/css-validator/)
+W3C CSS Validation Results for TextArea (CSS Level 3 + SVG)
+No errors were found in your stylesheet.
 
 #### Accessibility
 - I confirmed that colors and fonts chosen are easy to read and accessible by running it through lightouse in chrome devtools
@@ -198,6 +198,6 @@ out with field research and market analysis for the implementation of the busine
 ### Code
 - There was no copy paste code from another source or website but inspirations on how to do it.
 - Assistance with HTML, CSS was provided by (https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit) (https://css-tricks.com/), and (https://www.w3schools.com/).
-- Tutorials and documentation from [https://www.youtube.com/watch?v=7-orzsht98k].
+- Tutorials and documentation from Code Institute class module and youtube video [https://www.youtube.com/watch?v=7-orzsht98k].
 - [My Mentor Can Sücüllü] were consulted during the development process.
 - the development of the site was inspired by the Love Running website of the code institute.
