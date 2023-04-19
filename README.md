@@ -11,7 +11,7 @@ considering different alternatives for management practices.
 
 Through N'djar, users can access information such as what, how, and where to produce, soil vocation, and suitable cultivation for each cultivation 
 plot. The distribution system includes a 3-digit USSD number, APK mobile applications, and technical assistance.
-![N'djar Devices](./assets/images/devices.png)
+![N'djar Resposive](./assets/images/screenshot-responsive.png)
 
 ## Table of Contents
 - Overview
@@ -184,6 +184,7 @@ out with field research and market analysis for the implementation of the busine
 
 ### Media
 - The logo of the project was created by me.
+- Screenshot of the responsive where taken from (https://ui.dev/amiresponsive?url=https://atchutchi.github.io/Ndjar/)
 - To create Skeleton of the project it was used the Balsamiq wireframe (https://balsamiq.cloud/sf5rzkr/pcm5qyn/r0DFF).
 - The images from the webpage was downloaded at Freepik and Unsplash (https://www.freepik.com/) (https://unsplash.com/).
 - The SDG images was downloaded at Wikipedia.
