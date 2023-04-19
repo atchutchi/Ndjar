@@ -145,7 +145,7 @@ The following browsers were used to test the website for compatibility and unifo
 - Mozilla Firefox 
 ![responsivity](./assets/images/firefox.png)
 - Google Chrome
-![resposivity](./assets/images/)
+![resposivity](./assets/images/chrome.jpg)
 - Microsoft Edge
 ![responsivity](./assets/images/edge.png)
 
