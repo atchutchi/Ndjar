@@ -220,6 +220,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* Services */
+/* Image taken from https://unsplash.com/pt-br/fotografias/ajZibDGpPew */
 .services {
     padding: 2rem;
     background-image: url(../images/services-section.jpg);
@@ -359,7 +360,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* contact */
-
+/* Image taken from https://www.freepik.com/free-photo/side-view-women-shaking-hands_34240832.htm#query=shake%20hands%20agruculture&position=0&from_view=search&track=ais */
 .contacto {
     padding: 4rem 0;
     background-image: url('../images/side-view-women-shaking-hands.jpg');
