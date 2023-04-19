@@ -147,6 +147,7 @@ The following browsers were used to test the website for compatibility and unifo
 - Google Chrome
 - Safari 
 - Microsoft Edge
+![lighthouse](./assets/images/edge.png)
 
 In addition, the site's responsiveness was examined across a range of screen sizes, including those of mobile devices and huge desktop monitors.
 
