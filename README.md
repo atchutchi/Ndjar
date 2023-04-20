@@ -113,8 +113,8 @@ The project's features, functionality, and responsiveness across various browser
 2. **Problem:** Alignment of the logo and navigation bar.
     - **Solution:**  Using Chrome DevTools, I identified the problem with the width and added padding and margin-bottom to resolve the alignment issue for @media 950px and below.   - **Commit:** [Link to related commit](https://github.com/atchutchi/Ndjar/commit/0692589fcc4023b86c9f390131c0c46c789e7cc3)
 
-3. **Problem:** After run the validator w3 html i found an error when using the <h3> after <a> element within the <button> as a direct descendant of that element.
-    - **Solução:** I combined the 2 elements inside the <a> and styled it in CSS as a button, thus solving the problem. Then, I created a button class and used the display inline, and formatted the text and padding.
+3. **Problem:** After run the validator w3 html i found an error when using the "h3" after "a" element within the "button" as a direct descendant of that element.
+    - **Solução:** I combined the 2 elements inside the "a" and styled it in CSS as a button, thus solving the problem. Then, I created a button class and used the display inline, and formatted the text and padding.
     - **Commit:** [Link to related commit](https://github.com/atchutchi/Ndjar/commit/39118edf928c7a70985f93230c65e738ab1578ce)
      - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/a6b68689c9ed497fd57870dfee5917a8b4ad4168)
     - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/5dc5061dd00693c3a33827410663eb8914cdc92e)
