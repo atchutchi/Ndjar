@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6{
     margin-left: 30px;
 }
 
-/*navigation links */
+/*navigation bar */
 
 .menu {
     font-size: 110%;
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-/* main image and cover text */
+/* main image landing page and cover text */
 
 .main-outer{
     height: 600px;
@@ -140,6 +140,7 @@ h1, h2, h3, h4, h5, h6{
 
     padding-top: 40px;
     padding-left: 10px;
+    padding-bottom: 40px;
 
     background-color: rgba(0, 0, 0, 0.5);
     bottom: 50px;
@@ -150,7 +151,7 @@ h1, h2, h3, h4, h5, h6{
 .title-slogan .button{
     background-color: #795548;
     display: inline;
-    padding: 5px 10px;
+    padding: 1px 10px;
     color: #fff;
     border-radius: 5px;
     text-align: center;
@@ -219,8 +220,8 @@ h1, h2, h3, h4, h5, h6{
     font-size: 280%;
 }
 
-/* Services */
-/* Image taken from https://unsplash.com/pt-br/fotografias/ajZibDGpPew */
+/* services */
+/* image taken from https://unsplash.com/pt-br/fotografias/ajZibDGpPew */
 .services {
     padding: 2rem;
     background-image: url(../images/services-section.jpg);
@@ -360,7 +361,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* contact */
-/* Image taken from https://www.freepik.com/free-photo/side-view-women-shaking-hands_34240832.htm#query=shake%20hands%20agruculture&position=0&from_view=search&track=ais */
+/* image taken from https://www.freepik.com/free-photo/side-view-women-shaking-hands_34240832.htm#query=shake%20hands%20agruculture&position=0&from_view=search&track=ais */
 .contacto {
     padding: 4rem 0;
     background-image: url('../images/shaking-hands.png');
@@ -386,7 +387,7 @@ h1, h2, h3, h4, h5, h6{
     align-items: center;
 }
 
-/* Contact Row and Columns */
+/* contact row and columns */
 .contacto-row {
     display: flex;
     justify-content: space-between;
@@ -421,7 +422,7 @@ h1, h2, h3, h4, h5, h6{
     border-bottom: 1px solid #fff;
 }
 
-/* Contact Form */
+/* contact Form */
 #contact-form {
     display: flex;
     flex-direction: column;
@@ -463,7 +464,7 @@ button[type="submit"] {
 
 
 
-/* Footer */
+/* footer */
 footer {
     background-color: #333;
     color: #fff;
@@ -532,7 +533,7 @@ footer {
 
 }
 
-/* Medium screens responsivity for 950px */
+/* medium screens responsivity for 950px */
 @media (max-width: 950px) {
 
     .logo{
