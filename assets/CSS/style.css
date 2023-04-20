@@ -624,7 +624,7 @@ footer {
     }
     .services-content,
     .service-item {
-        display: block;
+        display: inline-table;
         width: 160px;
         margin: 0;
         margin-bottom: 10px;

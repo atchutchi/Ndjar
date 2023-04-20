@@ -140,6 +140,10 @@ The project's features, functionality, and responsiveness across various browser
     - **Solution:** I used flex direction: column and aligned them to the center.
     - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/6242dfd9d07cb8ad0903a3ad61c0e1b2cba545e9)
 
+2. **Problem:** The texts inside the box are outside the border when it is in smartphone responsive format.
+    - **Solution:** I set the text to have font-size all of 100%.
+    - **Commit:** [Link to related commit](https://github.com/atchutchi/Ndjar/commit/805d6589b9fdd73f58dcaf0a14dad1cf35d20527)
+
 #### Contact
 1. **Problem:** When testing the responsive layout in the Meet Us section for medium and small screens, the columns overlapped each other, and the text went out of shape, so the content of the columns was not displayed correctly on mobile devices.
     - **Solution:** I used flex direction: column and aligned them to the center.
