@@ -178,6 +178,7 @@ No errors were found in your stylesheet.
 
 #### Accessibility
 - I confirmed that colors and fonts chosen are easy to read and accessible by running it through lightouse in chrome devtools
+
 ![lighthouse](./assets/images/lighthouse-assessibility.png)
 
 
@@ -215,6 +216,7 @@ out with field research and market analysis for the implementation of the busine
 
 ### Code
 - There was no copy paste code from another source or website but inspirations on how to do it.
+- I used gitpod and codeanywhere for the development of the project as a whole.
 - Assistance with HTML, CSS was provided by (https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit) (https://css-tricks.com/), and (https://www.w3schools.com/).
 - Tutorials and documentation from Code Institute class module and youtube video [https://www.youtube.com/watch?v=7-orzsht98k].
 - [My Mentor Can Sücüllü] were consulted during the development process.
