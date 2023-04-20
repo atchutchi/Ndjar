@@ -129,9 +129,15 @@ The project's features, functionality, and responsiveness across various browser
 
 
 #### Service
-1. **Problem:** The title of the Service section and the columns were not aligned vertically and centered..
+1. **Problem:** The title of the Service section and the columns were not aligned vertically and centered.
     - **Solution:** I added flex direction and aligned it to the center by removing the margins; it almost looked good, but the columns still seemed misaligned.
     - **Commit:** [Link to related commit]( https://github.com/atchutchi/Ndjar/commit/6e9629e153d69344c0bb35b9919276934a083b1e)
+
+2. **Problem:** Could not align the service title with the service content to the center.
+    - **Solution:** By doing responsiveness test on smarthphone in devtool replaces display block to display table and it worked.
+    - **Commit:** [Link to related commit](https://github.com/atchutchi/Ndjar/commit/d8bbf7428a803f33306c7a8bf674619e00ce66e8)
+
+
 
 #### Theory of Change
 
