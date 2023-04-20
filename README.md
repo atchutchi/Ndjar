@@ -178,7 +178,7 @@ No errors were found in your stylesheet.
 
 #### Accessibility
 - I confirmed that colors and fonts chosen are easy to read and accessible by running it through lightouse in chrome devtools
-![lighthouse](./assets/images/lighthouse.png)
+![lighthouse](./assets/images/lighthouse-assessibility.png)
 
 
 #### Unsolved testing
